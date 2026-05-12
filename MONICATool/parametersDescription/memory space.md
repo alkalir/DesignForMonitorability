@@ -1,0 +1,1 @@
+The "memory space" parameter refers to the data memory requirements for the storage of raw information and the storage of monitoring information. Moreover, it also includes the instruction and data memory requirements for the storage of necessary information for the correct operations of the monitoring system.
