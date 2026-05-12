@@ -1,11 +1,16 @@
-The "accuracy" parameter refers to the level of accuracy (relative to an actual value or absolute) of the measurements done with the monitoring system.
+# Accuracy
 
-Set of possible values:
+The **Accuracy** parameter refers to the level of correctness of the measurements or classifications performed by the monitoring system, expressed either as a relative error with respect to the actual observed value, or as the percentage of correct classifications or responses.
 
-- value (%): a number related to the relative error or to the percentage of correct classifications/responses.
+This parameter can be set with an absolute value.
 
-- Not Applicable: when used in Find Mode, it means that the requirement of this parameter is not applicable for the considered monitoring requirements. Therefore, when searching for on-chip monitoring systems satisfying those monitoring requirements, only the on-chip monitoring systems with this parameter set as "Not Applicable" will be considered. When used in Insert Mode, it means that this parameter is not applicable for the described on-chip monitoring system.
+## Possible Values
 
-- Not Declared: when used in Find Mode, it means that the requirement of this parameter is not declared for the considered monitoring requirements. Therefore, when searching for on-chip monitoring systems satisfying those monitoring requirements, this parameter will not be kept into account. When used in Insert Mode, it means that this parameter is not declared for the described on-chip monitoring system.
+- **Lowest value (%):** the lowest value achieved by the monitoring system, expressed as a percentage, related to the percentage of correct classifications/responses.
+- **Not Applicable:** This value should never be set.
+- **Not Declared:** this parameter is not declared for the considered monitoring requirements, i.e., no value has been specified for it. This value must be set in case the other ones are not set.
 
-For example: relative error <1%; recognition of an element in a set correct at least 80% of the times; true/false responses correct at least 95% of the times.
+## Examples
+
+- Recognition of an element in a set correct at least 80% of the times
+- True/false responses correct at least 95% of the times
