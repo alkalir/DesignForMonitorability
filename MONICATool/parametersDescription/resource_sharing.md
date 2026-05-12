@@ -1,6 +1,6 @@
 # Resource Sharing
 
-The **Resource Sharing** parameter refers to the elements that are shared between MB, MI and MP (with respect to the monitoring reference model, see the [Organization](organization.md) parameter for more details).
+The **Resource Sharing** parameter refers to the elements that are shared between MB, MI and MP (with respect to the monitoring reference model, see the [Organization] parameter for more details).
 
 The analysis considers possible sharing among physical and logical resources of MB, MI and MP, as shown in the figure below:
 
