@@ -12,5 +12,5 @@ This parameter can be set with an absolute value.
 
 ## Examples
 
-- Recognition of an element in a set correct at least 80% of the times
-- True/false responses correct at least 95% of the times
+- 89% (e.g., a Network-on-Chip traffic monitor)
+- 95% (e.g., a malware detection system)
