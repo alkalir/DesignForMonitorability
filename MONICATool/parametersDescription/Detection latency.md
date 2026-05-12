@@ -4,8 +4,9 @@ The **Detection Latency** parameter refers to the elapsed time between the insta
 
 ## Possible Values
 
-- **value (cc):** a number or a range related to the detection latency value expressed in clock cycles.
-- **Not Declared:** this parameter is not declared for the considered monitoring requirements, i.e., no value has been specified for it.
+- **Provide the maximum detection latency in clock cycles (cc):** a number or a range related to the detection latency value expressed in clock cycles. If the detection latency is provided in ms, it must be scaled to clock cycles by using the frequency of operation.
+- **Not Applicable:** This value should never be set.
+- **Not Declared:** this parameter is not declared for the considered monitoring requirements, i.e., no value has been specified for it. This value must be set in case the other ones are not set.
 
 ## Examples
 
