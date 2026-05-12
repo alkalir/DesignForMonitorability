@@ -10,5 +10,5 @@ The **Detection Latency** parameter refers to the elapsed time between the insta
 
 ## Examples
 
-- Detection latency < 4 cc
+- Maximum Detection latency 4 cc
 - Detection latency in the range 10–50 cc
